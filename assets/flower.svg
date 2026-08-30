@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+
+<circle cx="60" cy="60" r="10" fill="#FFD166"/>
+
+<circle cx="40" cy="60" r="15" fill="#FF8FB1"/>
+
+<circle cx="80" cy="60" r="15" fill="#FF8FB1"/>
+
+<circle cx="60" cy="40" r="15" fill="#FF8FB1"/>
+
+<circle cx="60" cy="80" r="15" fill="#FF8FB1"/>
+
+</svg>
