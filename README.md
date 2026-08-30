@@ -80,7 +80,7 @@ I'm passionate about learning new technologies, solving problems through code, a
 </p>
 
 <p align="center">
-  <img src="assets/skills-progress.svg" width="100%" alt="Skills Progress"/>
+  <img src="assets/skill-progress.svg" width="100%" alt="Skills Progress"/>
 </p>
 
 <p align="center">
