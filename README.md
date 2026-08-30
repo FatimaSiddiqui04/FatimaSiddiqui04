@@ -152,18 +152,16 @@ I'm passionate about learning new technologies, solving problems through code, a
 
 # 💗 GitHub Garden 💗
 
-<i>Watching my little garden bloom ✿</i>
+*Watching my little garden bloom ✿*
 
 </p>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=FatimaSiddiqui04&show_icons=true&theme=rose_pine&hide_border=true&bg_color=FFF9FC&title_color=E86A92&icon_color=FF8FB1&text_color=5A3D46&cache_seconds=86400" alt="GitHub Stats"/>
-
-  <img width="48%" src="https://streak-stats.demolab.com?user=FatimaSiddiqui04&theme=rose-pine&hide_border=true&background=FFF9FC&ring=E86A92&fire=FF8FB1&currStreakLabel=E86A92" alt="GitHub Streak"/>
+  <img width="49%" src="https://streak-stats.demolab.com?user=FatimaSiddiqui04&theme=rose-pine&hide_border=true&background=FFF9FC&ring=E86A92&fire=FF8FB1&currStreakLabel=E86A92" alt="GitHub Streak">
 </p>
 
 <p align="center">
-  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FatimaSiddiqui04&layout=compact&theme=rose_pine&hide_border=true&bg_color=FFF9FC&title_color=E86A92&text_color=5A3D46&cache_seconds=86400" alt="Top Languages"/>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FatimaSiddiqui04&theme=rose_pine" alt="GitHub Profile Summary">
 </p>
 
 ---
@@ -233,7 +231,7 @@ I'm passionate about learning new technologies, solving problems through code, a
 </p>
 
 <p align="center">
-  <i>"Every line of code is a tiny bloom."</i>
+  <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=22&duration=3500&pause=1200&color=FF8FB1&center=true&vCenter=true&width=600&height=45&lines=Every+line+of+code+is+a+tiny+bloom+%F0%9F%8C%B8;Keep+learning.+Keep+growing.+%F0%9F%92%97;Building+beautiful+ideas+into+reality+%E2%9C%A8" alt="Typing Animation">
 </p>
 
 <p align="center">
@@ -241,5 +239,5 @@ I'm passionate about learning new technologies, solving problems through code, a
 </p>
 
 <p align="center">
-  Made with 🌸, Python & lots of coffee ☕
+  <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=16&duration=4000&pause=1000&color=B85C8A&center=true&vCenter=true&width=500&height=30&lines=Made+with+%F0%9F%8C%B8+Python+%26+lots+of+coffee+%E2%98%95" alt="Footer Typing">
 </p>
