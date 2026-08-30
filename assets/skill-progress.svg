@@ -1,99 +1,178 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
 
-<defs>
-  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#FFF9FC"/>
-    <stop offset="100%" stop-color="#FFE8F2"/>
-  </linearGradient>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9FC"/>
+      <stop offset="100%" stop-color="#FFE8F2"/>
+    </linearGradient>
 
-  <linearGradient id="fill" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#FFB3D1"/>
-    <stop offset="100%" stop-color="#FF6FA5"/>
-  </linearGradient>
+    <linearGradient id="fill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9FC5"/>
+      <stop offset="50%" stop-color="#FF79A8"/>
+      <stop offset="100%" stop-color="#FF5C97"/>
+    </linearGradient>
 
-  <filter id="shadow">
-    <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#F5A2C1" flood-opacity=".35"/>
-  </filter>
-</defs>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="3" stdDeviation="5"
+                    flood-color="#E86A92" flood-opacity=".25"/>
+    </filter>
 
-<!-- Background -->
-<rect width="900" height="640" rx="32" fill="url(#bg)" stroke="#F8C9DA" stroke-width="2"/>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
 
-<!-- Title -->
-<text x="450" y="55" text-anchor="middle"
-      font-size="32"
-      font-family="Georgia"
-      font-weight="bold"
-      fill="#B85C8A">
-  ✿ My Skills Progress ✿
-</text>
+  <!-- Background -->
+  <rect x="10" y="10" width="880" height="700"
+        rx="30"
+        fill="url(#bg)"
+        stroke="#F6C7D9"
+        stroke-width="2"/>
 
-<!-- Reusable row -->
+  <!-- Decorative border -->
+  <rect x="24" y="24" width="852" height="672"
+        rx="24"
+        fill="none"
+        stroke="#F8CADC"
+        stroke-width="2"
+        stroke-dasharray="6 6"/>
 
-<!-- Python -->
-<g transform="translate(50,90)">
-  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
-  <text x="25" y="33" text-anchor="middle" font-size="24">🐍</text>
-  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">Python</text>
-  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
-  <rect x="70" y="30" width="520" height="18" rx="9" fill="url(#fill)"/>
-  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">90%</text>
-  <text x="575" y="44" font-size="18">💗</text>
-</g>
+  <!-- Cherry blossom corners -->
+  <g fill="#FF8FB1">
+    <circle cx="55" cy="50" r="9"/>
+    <circle cx="40" cy="62" r="9"/>
+    <circle cx="70" cy="62" r="9"/>
+    <circle cx="55" cy="75" r="9"/>
+    <circle cx="55" cy="62" r="6" fill="#FFD166"/>
+  </g>
 
-<!-- NumPy -->
-<g transform="translate(50,170)">
-  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
-  <text x="25" y="33" text-anchor="middle" font-size="24">🔢</text>
-  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">NumPy</text>
-  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
-  <rect x="70" y="30" width="488" height="18" rx="9" fill="url(#fill)"/>
-  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">55%</text>
-  <text x="543" y="44" font-size="18">💗</text>
-</g>
+  <g transform="translate(845,50)">
+    <circle cx="0" cy="0" r="9" fill="#FF8FB1"/>
+    <circle cx="-15" cy="12" r="9" fill="#FF8FB1"/>
+    <circle cx="15" cy="12" r="9" fill="#FF8FB1"/>
+    <circle cx="0" cy="25" r="9" fill="#FF8FB1"/>
+    <circle cx="0" cy="12" r="6" fill="#FFD166"/>
+  </g>
 
-<!-- Pandas -->
-<g transform="translate(50,250)">
-  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
-  <text x="25" y="33" text-anchor="middle" font-size="24">📊</text>
-  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">Pandas</text>
-  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
-  <rect x="70" y="30" width="488" height="18" rx="9" fill="url(#fill)"/>
-  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">99%</text>
-  <text x="543" y="44" font-size="18">💗</text>
-</g>
+  <!-- Title -->
+  <text x="450"
+        y="65"
+        text-anchor="middle"
+        font-family="Georgia"
+        font-size="32"
+        font-weight="bold"
+        fill="#A73F67">
+    ✿ My Skills Progress ✿
+  </text>
 
-<!-- Streamlit -->
-<g transform="translate(50,330)">
-  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
-  <text x="25" y="33" text-anchor="middle" font-size="24">🎀</text>
-  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">Streamlit</text>
-  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
-  <rect x="70" y="30" width="455" height="18" rx="9" fill="url(#fill)"/>
-  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">90%</text>
-  <text x="510" y="44" font-size="18">💗</text>
-</g>
+  <!-- Ribbon -->
+  <path d="M310 88 C355 104 545 104 590 88"
+        stroke="#FF8FB1"
+        stroke-width="4"
+        fill="none"
+        stroke-linecap="round"/>
+  <text x="450" y="97" text-anchor="middle" font-size="20">🎀</text>
 
-<!-- SQL -->
-<g transform="translate(50,410)">
-  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
-  <text x="25" y="33" text-anchor="middle" font-size="24">🗄️</text>
-  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">SQL</text>
-  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
-  <rect x="70" y="30" width="423" height="18" rx="9" fill="url(#fill)"/>
-  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">95%</text>
-  <text x="478" y="44" font-size="18">💗</text>
-</g>
+  <!-- ========= Python ========= -->
+  <g transform="translate(45,120)">
+    <rect width="810" height="78" rx="20"
+          fill="#FFF8FB"
+          stroke="#F6D1DF"/>
+    <circle cx="40" cy="39" r="26" fill="#FFEAF3" filter="url(#shadow)"/>
+    <text x="40" y="47" text-anchor="middle" font-size="24">🐍</text>
+    <text x="80" y="32" font-family="Georgia" font-size="22" fill="#5A3D46">Python</text>
 
-<!-- PostgreSQL -->
-<g transform="translate(50,490)">
-  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
-  <text x="25" y="33" text-anchor="middle" font-size="24">🐘</text>
-  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">PostgreSQL</text>
-  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
-  <rect x="70" y="30" width="390" height="18" rx="9" fill="url(#fill)"/>
-  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">40%</text>
-  <text x="445" y="44" font-size="18">💗</text>
-</g>
+    <rect x="80" y="45" width="600" height="16" rx="8" fill="#F7DCE7"/>
+    <rect x="80" y="45" width="540" height="16" rx="8" fill="url(#fill)"/>
+    <circle cx="620" cy="53" r="11" fill="#FF5C97" stroke="#FFD6E7" stroke-width="2"/>
+    <text x="620" y="57" text-anchor="middle" font-size="10" fill="white">❤</text>
+
+    <text x="715" y="56" font-size="22" font-family="Georgia" fill="#E86A92" font-weight="bold">90%</text>
+  </g>
+
+  <!-- ========= NumPy ========= -->
+  <g transform="translate(45,210)">
+    <rect width="810" height="78" rx="20"
+          fill="#FFF8FB"
+          stroke="#F6D1DF"/>
+    <circle cx="40" cy="39" r="26" fill="#FFEAF3" filter="url(#shadow)"/>
+    <text x="40" y="47" text-anchor="middle" font-size="22">🔢</text>
+    <text x="80" y="32" font-family="Georgia" font-size="22" fill="#5A3D46">NumPy</text>
+
+    <rect x="80" y="45" width="600" height="16" rx="8" fill="#F7DCE7"/>
+    <rect x="80" y="45" width="330" height="16" rx="8" fill="url(#fill)"/>
+    <circle cx="410" cy="53" r="11" fill="#FF5C97" stroke="#FFD6E7" stroke-width="2"/>
+    <text x="410" y="57" text-anchor="middle" font-size="10" fill="white">❤</text>
+
+    <text x="715" y="56" font-size="22" font-family="Georgia" fill="#E86A92" font-weight="bold">55%</text>
+  </g>
+
+  <!-- ========= Pandas ========= -->
+  <g transform="translate(45,300)">
+    <rect width="810" height="78" rx="20"
+          fill="#FFF8FB"
+          stroke="#F6D1DF"/>
+    <circle cx="40" cy="39" r="26" fill="#FFEAF3" filter="url(#shadow)"/>
+    <text x="40" y="47" text-anchor="middle" font-size="22">📊</text>
+    <text x="80" y="32" font-family="Georgia" font-size="22" fill="#5A3D46">Pandas</text>
+
+    <rect x="80" y="45" width="600" height="16" rx="8" fill="#F7DCE7"/>
+    <rect x="80" y="45" width="594" height="16" rx="8" fill="url(#fill)"/>
+    <circle cx="674" cy="53" r="11" fill="#FF5C97" stroke="#FFD6E7" stroke-width="2"/>
+    <text x="674" y="57" text-anchor="middle" font-size="10" fill="white">❤</text>
+
+    <text x="715" y="56" font-size="22" font-family="Georgia" fill="#E86A92" font-weight="bold">99%</text>
+  </g>
+
+  <!-- ========= Streamlit ========= -->
+  <g transform="translate(45,390)">
+    <rect width="810" height="78" rx="20"
+          fill="#FFF8FB"
+          stroke="#F6D1DF"/>
+    <circle cx="40" cy="39" r="26" fill="#FFEAF3" filter="url(#shadow)"/>
+    <text x="40" y="47" text-anchor="middle" font-size="22">🎀</text>
+    <text x="80" y="32" font-family="Georgia" font-size="22" fill="#5A3D46">Streamlit</text>
+
+    <rect x="80" y="45" width="600" height="16" rx="8" fill="#F7DCE7"/>
+    <rect x="80" y="45" width="540" height="16" rx="8" fill="url(#fill)"/>
+    <circle cx="620" cy="53" r="11" fill="#FF5C97" stroke="#FFD6E7" stroke-width="2"/>
+    <text x="620" y="57" text-anchor="middle" font-size="10" fill="white">❤</text>
+
+    <text x="715" y="56" font-size="22" font-family="Georgia" fill="#E86A92" font-weight="bold">90%</text>
+  </g>
+
+  <!-- ========= SQL ========= -->
+  <g transform="translate(45,480)">
+    <rect width="810" height="78" rx="20"
+          fill="#FFF8FB"
+          stroke="#F6D1DF"/>
+    <circle cx="40" cy="39" r="26" fill="#FFEAF3" filter="url(#shadow)"/>
+    <text x="40" y="47" text-anchor="middle" font-size="22">🗄️</text>
+    <text x="80" y="32" font-family="Georgia" font-size="22" fill="#5A3D46">SQL</text>
+
+    <rect x="80" y="45" width="600" height="16" rx="8" fill="#F7DCE7"/>
+    <rect x="80" y="45" width="570" height="16" rx="8" fill="url(#fill)"/>
+    <circle cx="650" cy="53" r="11" fill="#FF5C97" stroke="#FFD6E7" stroke-width="2"/>
+    <text x="650" y="57" text-anchor="middle" font-size="10" fill="white">❤</text>
+
+    <text x="715" y="56" font-size="22" font-family="Georgia" fill="#E86A92" font-weight="bold">95%</text>
+  </g>
+
+  <!-- ========= PostgreSQL ========= -->
+  <g transform="translate(45,570)">
+    <rect width="810" height="78" rx="20"
+          fill="#FFF8FB"
+          stroke="#F6D1DF"/>
+    <circle cx="40" cy="39" r="26" fill="#FFEAF3" filter="url(#shadow)"/>
+    <text x="40" y="47" text-anchor="middle" font-size="22">🐘</text>
+    <text x="80" y="32" font-family="Georgia" font-size="22" fill="#5A3D46">PostgreSQL</text>
+
+    <rect x="80" y="45" width="600" height="16" rx="8" fill="#F7DCE7"/>
+    <rect x="80" y="45" width="240" height="16" rx="8" fill="url(#fill)"/>
+    <circle cx="320" cy="53" r="11" fill="#FF5C97" stroke="#FFD6E7" stroke-width="2"/>
+    <text x="320" y="57" text-anchor="middle" font-size="10" fill="white">❤</text>
+
+    <text x="715" y="56" font-size="22" font-family="Georgia" fill="#E86A92" font-weight="bold">40%</text>
+  </g>
 
 </svg>
