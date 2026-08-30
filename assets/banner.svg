@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+
+<stop offset="0%" stop-color="#FFF9FC"/>
+
+<stop offset="100%" stop-color="#FFD6E7"/>
+
+</linearGradient>
+
+<filter id="shadow">
+
+<feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#E86A92" flood-opacity=".3"/>
+
+</filter>
+
+</defs>
+
+<rect width="1200" height="420" rx="40" fill="url(#bg)"/>
+
+<path d="M0 340 C260 290 470 360 720 300 C900 260 1080 320 1200 280"
+
+stroke="#FFD6E7"
+
+stroke-width="4"
+
+fill="none"/>
+
+<circle cx="120" cy="90" r="35" fill="#FFEAF3"/>
+
+<circle cx="1070" cy="70" r="45" fill="#FFEAF3"/>
+
+<circle cx="1040" cy="330" r="60" fill="#FFEAF3"/>
+
+<circle cx="170" cy="325" r="55" fill="#FFEAF3"/>
+
+<g transform="translate(95,250)">
+
+<circle r="12" fill="#FFD166"/>
+
+<circle cx="-20" r="15" fill="#FF8FB1"/>
+
+<circle cx="20" r="15" fill="#FF8FB1"/>
+
+<circle cy="-20" r="15" fill="#FF8FB1"/>
+
+<circle cy="20" r="15" fill="#FF8FB1"/>
+
+</g>
+
+<g transform="translate(1090,145) scale(.9)">
+
+<circle r="12" fill="#FFD166"/>
+
+<circle cx="-20" r="15" fill="#FF8FB1"/>
+
+<circle cx="20" r="15" fill="#FF8FB1"/>
+
+<circle cy="-20" r="15" fill="#FF8FB1"/>
+
+<circle cy="20" r="15" fill="#FF8FB1"/>
+
+</g>
+
+<text x="130" y="165"
+
+font-size="72"
+
+font-family="Georgia"
+
+font-weight="bold"
+
+fill="#B85C8A"
+
+filter="url(#shadow)">
+
+FATIMA
+
+</text>
+
+<text x="132" y="215"
+
+font-size="26"
+
+font-family="Georgia"
+
+fill="#5A3D46">
+
+Building beautiful ideas into reality ✿
+
+</text>
+
+<rect x="130" y="255" width="250" height="46" rx="23" fill="#FF8FB1"/>
+
+<text x="176" y="284"
+
+font-size="20"
+
+font-family="Georgia"
+
+fill="white">
+
+developer journal
+
+</text>
+
+</svg>
