@@ -157,13 +157,13 @@ I'm passionate about learning new technologies, solving problems through code, a
 </p>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=FatimaSiddiqui04&show_icons=true&theme=rose_pine&hide_border=true&bg_color=FFF9FC&title_color=E86A92&icon_color=FF8FB1&text_color=5A3D46" alt="GitHub Stats">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=FatimaSiddiqui04&show_icons=true&theme=rose_pine&hide_border=true&bg_color=FFF9FC&title_color=E86A92&icon_color=FF8FB1&text_color=5A3D46&cache_seconds=86400" alt="GitHub Stats"/>
 
-  <img width="48%" src="https://streak-stats.demolab.com?user=FatimaSiddiqui04&theme=rose-pine&hide_border=true&background=FFF9FC&ring=E86A92&fire=FF8FB1&currStreakLabel=E86A92" alt="GitHub Streak">
+  <img width="48%" src="https://streak-stats.demolab.com?user=FatimaSiddiqui04&theme=rose-pine&hide_border=true&background=FFF9FC&ring=E86A92&fire=FF8FB1&currStreakLabel=E86A92" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FatimaSiddiqui04&layout=compact&theme=rose_pine&hide_border=true&bg_color=FFF9FC&title_color=E86A92&text_color=5A3D46" alt="Top Languages">
+  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FatimaSiddiqui04&layout=compact&theme=rose_pine&hide_border=true&bg_color=FFF9FC&title_color=E86A92&text_color=5A3D46&cache_seconds=86400" alt="Top Languages"/>
 </p>
 
 ---
