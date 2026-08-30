@@ -179,6 +179,12 @@ I'm passionate about learning new technologies, solving problems through code, a
 
 <p align="center">
 
+<p align="center">
+  <img src="assets/divider.svg">
+</p>
+
+<p align="center">
+
 # 🐍 My Blooming Garden 🐍
 
 <i>Watching my contributions bloom every day ✿</i>
@@ -186,14 +192,12 @@ I'm passionate about learning new technologies, solving problems through code, a
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FatimaSiddiqui04/FatimaSiddiqui04/output/github-snake.svg" width="100%" alt="Pink GitHub Snake"/>
+  <img src="https://raw.githubusercontent.com/FatimaSiddiqui04/FatimaSiddiqui04/output/github-snake.svg" width="100%" alt="Pink GitHub Snake">
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg">
+  🌸 Every commit is another flower in my garden 🌸
 </p>
-
-<p align="center">
 
 # 💌 Let's Connect 💌
 
