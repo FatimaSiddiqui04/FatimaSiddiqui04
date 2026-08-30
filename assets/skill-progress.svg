@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FFF9FC"/>
+    <stop offset="100%" stop-color="#FFE8F2"/>
+  </linearGradient>
+
+  <linearGradient id="fill" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FFB3D1"/>
+    <stop offset="100%" stop-color="#FF6FA5"/>
+  </linearGradient>
+
+  <filter id="shadow">
+    <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#F5A2C1" flood-opacity=".35"/>
+  </filter>
+</defs>
+
+<!-- Background -->
+<rect width="900" height="640" rx="32" fill="url(#bg)" stroke="#F8C9DA" stroke-width="2"/>
+
+<!-- Title -->
+<text x="450" y="55" text-anchor="middle"
+      font-size="32"
+      font-family="Georgia"
+      font-weight="bold"
+      fill="#B85C8A">
+  ✿ My Skills Progress ✿
+</text>
+
+<!-- Reusable row -->
+
+<!-- Python -->
+<g transform="translate(50,90)">
+  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
+  <text x="25" y="33" text-anchor="middle" font-size="24">🐍</text>
+  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">Python</text>
+  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
+  <rect x="70" y="30" width="520" height="18" rx="9" fill="url(#fill)"/>
+  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">90%</text>
+  <text x="575" y="44" font-size="18">💗</text>
+</g>
+
+<!-- NumPy -->
+<g transform="translate(50,170)">
+  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
+  <text x="25" y="33" text-anchor="middle" font-size="24">🔢</text>
+  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">NumPy</text>
+  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
+  <rect x="70" y="30" width="488" height="18" rx="9" fill="url(#fill)"/>
+  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">55%</text>
+  <text x="543" y="44" font-size="18">💗</text>
+</g>
+
+<!-- Pandas -->
+<g transform="translate(50,250)">
+  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
+  <text x="25" y="33" text-anchor="middle" font-size="24">📊</text>
+  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">Pandas</text>
+  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
+  <rect x="70" y="30" width="488" height="18" rx="9" fill="url(#fill)"/>
+  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">99%</text>
+  <text x="543" y="44" font-size="18">💗</text>
+</g>
+
+<!-- Streamlit -->
+<g transform="translate(50,330)">
+  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
+  <text x="25" y="33" text-anchor="middle" font-size="24">🎀</text>
+  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">Streamlit</text>
+  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
+  <rect x="70" y="30" width="455" height="18" rx="9" fill="url(#fill)"/>
+  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">90%</text>
+  <text x="510" y="44" font-size="18">💗</text>
+</g>
+
+<!-- SQL -->
+<g transform="translate(50,410)">
+  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
+  <text x="25" y="33" text-anchor="middle" font-size="24">🗄️</text>
+  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">SQL</text>
+  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
+  <rect x="70" y="30" width="423" height="18" rx="9" fill="url(#fill)"/>
+  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">95%</text>
+  <text x="478" y="44" font-size="18">💗</text>
+</g>
+
+<!-- PostgreSQL -->
+<g transform="translate(50,490)">
+  <circle cx="25" cy="25" r="25" fill="#FFEAF3"/>
+  <text x="25" y="33" text-anchor="middle" font-size="24">🐘</text>
+  <text x="70" y="18" font-size="22" font-family="Georgia" fill="#5A3D46">PostgreSQL</text>
+  <rect x="70" y="30" width="650" height="18" rx="9" fill="#F7DCE7"/>
+  <rect x="70" y="30" width="390" height="18" rx="9" fill="url(#fill)"/>
+  <text x="740" y="44" font-size="18" font-family="Georgia" fill="#E86A92">40%</text>
+  <text x="445" y="44" font-size="18">💗</text>
+</g>
+
+</svg>
