@@ -179,11 +179,6 @@ I'm passionate about learning new technologies, solving problems through code, a
 
 <p align="center">
 
-<p align="center">
-  <img src="assets/divider.svg">
-</p>
-
-<p align="center">
 
 # 🐍 My Blooming Garden 🐍
 
