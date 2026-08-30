@@ -1,16 +1,44 @@
-## Hi there 👋
+<p align="center">
+  <img src="assets/banner.svg" width="100%">
+</p>
 
-<!--
-**FatimaSiddiqui04/FatimaSiddiqui04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="assets/ribbon.svg">
+</p>
 
-Here are some ideas to get you started:
+<h1 align="center">✿ Welcome to my GitHub Garden ✿</h1>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  Learning • Growing • Creating
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=FatimaSiddiqui04&label=Visitors&color=ff8fb1&style=flat-square" alt="Profile Views"/>
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/divider.svg">
+</p>
+
+## 🌷 About Me
+
+```python
+class Developer:
+
+    name = "Fatima Siddiqui"
+
+    role = "Python Developer"
+
+    skills = [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "Streamlit",
+        "SQL",
+        "PostgreSQL"
+    ]
+
+    motto = "Keep learning. Keep growing."
+```
